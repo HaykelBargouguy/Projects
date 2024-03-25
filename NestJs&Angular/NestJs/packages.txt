@@ -1,0 +1,9 @@
+npm i --save class-validator class-transformer
+npm i --save @nestjs/config
+npm install --save @nestjs/typeorm typeorm
+npm install mysql2
+npm i bcrypt @types/bcrypt
+npm i --save @nestjs/passport passport
+npm install passport-jwt
+npm install joi
+npm install cors

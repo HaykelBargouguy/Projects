@@ -1,0 +1,26 @@
+[
+    {
+        "id": "DevOps",
+        "title": "DevOps",
+        "domain": "Software Development",
+        "description": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the development lifecycle and deliver high-quality software continuously. This roadmap includes key milestones such as mastering Linux, containerization with Docker, Infrastructure as Code (IaC) with Terraform, Continuous Integration/Continuous Deployment (CI/CD), and orchestration with Kubernetes."
+    },
+    {
+        "id": "FullStackWebDev",
+        "title": "Full Stack Web Development with Nest and Angular",
+        "domain": "Web Development",
+        "description": "This roadmap covers the full stack web development process, incorporating both frontend and backend technologies. It includes learning the essentials of web development, backend development with Node.js and Nest framework, database design, frontend development with Angular, and the development and integration of RESTful APIs for seamless communication between frontend and backend components."
+    },
+    {
+        "id": "Cybersecurity",
+        "title": "Cybersecurity",
+        "domain": "Information Security",
+        "description": "Cybersecurity involves the practice of protecting systems, networks, and programs from digital attacks, damage, or unauthorized access. It encompasses various technologies, processes, and practices designed to safeguard information and ensure the confidentiality, integrity, and availability of data."
+    },
+    {
+        "id": "MachineLearning",
+        "title": "Machine Learning",
+        "domain": "Computer Science",
+        "description": "Machine learning (ML) is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so."
+    }            
+]

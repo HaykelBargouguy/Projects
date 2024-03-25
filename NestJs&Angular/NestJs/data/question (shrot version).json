@@ -1,0 +1,1102 @@
+[
+    {
+        "content": "What is the command to view the contents of a file in Linux?",
+        "options": [
+            "ls",
+            "cat",
+            "echo",
+            "touch"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Linux"
+    },
+    {
+        "content": "Which command is used to change directories in Linux?",
+        "options": [
+            "cd",
+            "mv",
+            "dir",
+            "cp"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Introduction to Linux"
+    },
+    {
+        "content": "What does 'sudo' stand for and what is its purpose?",
+        "options": [
+            "Super User Do, to perform actions as the root user",
+            "Switch User and Do, to switch user accounts",
+            "System Utility Do, to access system utilities",
+            "Save Undo Do, to revert changes"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Introduction to Linux"
+    },
+    {
+        "content": "Which command is used to list all files and directories in the current directory in Linux?",
+        "options": [
+            "list",
+            "ls",
+            "dir",
+            "show"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Linux"
+    },
+    {
+        "content": "What is the purpose of the 'chmod' command in Linux?",
+        "options": [
+            "Change the user password",
+            "Modify file permissions",
+            "Change file ownership",
+            "Monitor system performance"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Linux"
+    },
+    {
+        "content": "What is Docker used for in software development?",
+        "options": [
+            "Database management",
+            "Containerization",
+            "Version control",
+            "Graphic design"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Docker for Beginners"
+    },
+    {
+        "content": "What is a Docker container?",
+        "options": [
+            "A lightweight virtual machine",
+            "A physical server",
+            "A programming language",
+            "An operating system"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Docker for Beginners"
+    },
+    {
+        "content": "Which command is used to build a Docker image from a Dockerfile?",
+        "options": [
+            "docker run",
+            "docker build",
+            "docker create",
+            "docker push"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Docker for Beginners"
+    },
+    {
+        "content": "What is the purpose of the 'docker-compose' tool in Docker?",
+        "options": [
+            "To push Docker images to a registry",
+            "To manage multiple containers as a service",
+            "To delete Docker containers",
+            "To view Docker container logs"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Docker for Beginners"
+    },
+    {
+        "content": "How can you stop a running Docker container?",
+        "options": [
+            "docker stop <container_id>",
+            "docker pause <container_id>",
+            "docker kill <container_id>",
+            "docker exit <container_id>"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Docker for Beginners"
+    },
+    {
+        "content": "What is Terraform used for in the context of DevOps?",
+        "options": [
+            "Configuration management",
+            "Infrastructure as Code (IaC)",
+            "Container orchestration",
+            "Continuous integration"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Mastering Terraform"
+    },
+    {
+        "content": "What is the main advantage of using Infrastructure as Code (IaC) tools like Terraform?",
+        "options": [
+            "Automating software development",
+            "Managing configuration files",
+            "Providing version control for infrastructure",
+            "Monitoring system performance"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Mastering Terraform"
+    },
+    {
+        "content": "In Terraform, what is a 'resource'?",
+        "options": [
+            "A physical server",
+            "A block of code that defines infrastructure objects",
+            "An environment variable",
+            "A container image"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Mastering Terraform"
+    },
+    {
+        "content": "Which command is used to initialize a Terraform working directory?",
+        "options": [
+            "terraform init",
+            "terraform start",
+            "terraform create",
+            "terraform setup"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Mastering Terraform"
+    },
+    {
+        "content": "What is the purpose of a Terraform 'variable'?",
+        "options": [
+            "To store data in a file",
+            "To define the type of infrastructure",
+            "To represent an input value",
+            "To display output values"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Mastering Terraform"
+    },
+    {
+        "content": "What is the main goal of Continuous Integration (CI) in software development?",
+        "options": [
+            "Automate the deployment process",
+            "Detect and address integration issues early",
+            "Manage configuration files",
+            "Monitor system performance"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Continuous Integration/Continuous Deployment"
+    },
+    {
+        "content": "In the context of CI/CD, what does the term 'pipeline' refer to?",
+        "options": [
+            "A programming language",
+            "A series of automated steps for building, testing, and deploying code",
+            "A container orchestration tool",
+            "A version control system"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Continuous Integration/Continuous Deployment"
+    },
+    {
+        "content": "What is the purpose of Continuous Deployment (CD) in the software development lifecycle?",
+        "options": [
+            "To automate the build process",
+            "To deploy changes to production automatically",
+            "To manage code repositories",
+            "To conduct code reviews"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Continuous Integration/Continuous Deployment"
+    },
+    {
+        "content": "Which tool is commonly used for version control in CI/CD pipelines?",
+        "options": [
+            "Docker",
+            "Jenkins",
+            "Git",
+            "Kubernetes"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Continuous Integration/Continuous Deployment"
+    },
+    {
+        "content": "What is the purpose of the 'build' stage in a CI/CD pipeline?",
+        "options": [
+            "To deploy the application",
+            "To identify and fix bugs",
+            "To create executable code from source code",
+            "To manage infrastructure"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Continuous Integration/Continuous Deployment"
+    },
+    {
+        "content": "What is Kubernetes primarily used for in the context of DevOps?",
+        "options": [
+            "Version control",
+            "Configuration management",
+            "Container orchestration",
+            "Continuous integration"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Kubernetes Fundamentals"
+    },
+    {
+        "content": "In Kubernetes, what is a 'Pod'?",
+        "options": [
+            "A group of containers that share the same network namespace",
+            "A single container",
+            "A virtual machine",
+            "A serverless function"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Kubernetes Fundamentals"
+    },
+    {
+        "content": "What is the purpose of the 'kubectl' command in Kubernetes?",
+        "options": [
+            "To create Docker images",
+            "To interact with a Kubernetes cluster",
+            "To configure network policies",
+            "To monitor system performance"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Kubernetes Fundamentals"
+    },
+    {
+        "content": "In Kubernetes, what is a 'Service'?",
+        "options": [
+            "A group of Pods that work together",
+            "A configuration file",
+            "A physical server",
+            "A container registry"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Kubernetes Fundamentals"
+    },
+    {
+        "content": "What is the purpose of the 'Deployment' resource in Kubernetes?",
+        "options": [
+            "To manage container logs",
+            "To scale the number of Pods in a cluster",
+            "To create persistent volumes",
+            "To define the desired state for Pods"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Kubernetes Fundamentals"
+    },
+    {
+        "content": "What is the main goal of machine learning?",
+        "options": [
+            "To automate software development",
+            "To understand human emotions",
+            "To enable computers to learn from data and make predictions",
+            "To manage configuration files"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Machine Learning"
+    },
+    {
+        "content": "In machine learning, what is a 'feature'?",
+        "options": [
+            "A type of algorithm",
+            "A characteristic or attribute of the data",
+            "A programming language",
+            "A container image"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Machine Learning"
+    },
+    {
+        "content": "What is the difference between supervised learning and unsupervised learning?",
+        "options": [
+            "There is no difference",
+            "Supervised learning has labeled data, and unsupervised learning has unlabeled data",
+            "Supervised learning is faster",
+            "Unsupervised learning requires less computation power"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Machine Learning"
+    },
+    {
+        "content": "Which type of machine learning algorithm is used for classification tasks?",
+        "options": [
+            "Regression",
+            "Clustering",
+            "Decision Trees",
+            "Dimensionality Reduction"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Machine Learning"
+    },
+    {
+        "content": "What is the purpose of the 'training set' in machine learning?",
+        "options": [
+            "To test the model's performance",
+            "To provide initial parameters for the model",
+            "To validate the model's predictions",
+            "To train and build the model"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Introduction to Machine Learning"
+    },
+    {
+        "content": "What is the primary goal of data preprocessing in machine learning?",
+        "options": [
+            "To increase model complexity",
+            "To reduce computation time",
+            "To prepare and clean data for model training",
+            "To visualize data"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Data Preprocessing and Feature Engineering"
+    },
+    {
+        "content": "Why is handling missing data important in data preprocessing?",
+        "options": [
+            "It doesn't affect model performance",
+            "Missing data can lead to biased results and inaccurate predictions",
+            "It improves visualization",
+            "It reduces the need for feature engineering"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Data Preprocessing and Feature Engineering"
+    },
+    {
+        "content": "What is one common technique for handling categorical data in machine learning?",
+        "options": [
+            "Removing categorical features",
+            "Replacing categories with numeric values",
+            "Ignoring categorical data",
+            "Scaling categorical data"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Data Preprocessing and Feature Engineering"
+    },
+    {
+        "content": "What is the purpose of data normalization in feature engineering?",
+        "options": [
+            "To make data more complex",
+            "To increase computation time",
+            "To scale features to a similar range",
+            "To remove outliers from the data"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Data Preprocessing and Feature Engineering"
+    },
+    {
+        "content": "What is the concept of 'feature scaling' in machine learning?",
+        "options": [
+            "Reducing the number of features",
+            "Transforming features to a standard scale",
+            "Ignoring certain features",
+            "Selecting features manually"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Data Preprocessing and Feature Engineering"
+    },
+    {
+        "content": "What is the primary goal of supervised learning?",
+        "options": [
+            "To understand patterns in unlabeled data",
+            "To classify or predict labels for new, unseen data based on labeled training data",
+            "To reduce dimensionality",
+            "To preprocess data for visualization"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Supervised Learning Algorithms"
+    },
+    {
+        "content": "In classification, what is the task of a supervised learning algorithm?",
+        "options": [
+            "To predict a continuous value",
+            "To group similar data points",
+            "To assign labels or categories to input data",
+            "To reduce noise in the data"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Supervised Learning Algorithms"
+    },
+    {
+        "content": "What is the purpose of the 'train-test split' in supervised learning?",
+        "options": [
+            "To create new features",
+            "To increase model complexity",
+            "To evaluate the model's performance on unseen data",
+            "To visualize data better"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Supervised Learning Algorithms"
+    },
+    {
+        "content": "What type of problem does regression in supervised learning address?",
+        "options": [
+            "Classification",
+            "Clustering",
+            "Predicting continuous values",
+            "Reducing dimensionality"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Supervised Learning Algorithms"
+    },
+    {
+        "content": "Which supervised learning algorithm is commonly used for binary classification?",
+        "options": [
+            "K-Means",
+            "Decision Trees",
+            "Logistic Regression",
+            "K-Nearest Neighbors"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Supervised Learning Algorithms"
+    },
+    {
+        "content": "What is the primary goal of unsupervised learning?",
+        "options": [
+            "To classify or predict labels for new, unseen data based on labeled training data",
+            "To understand patterns in unlabeled data",
+            "To reduce dimensionality",
+            "To preprocess data for visualization"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Unsupervised Learning Techniques"
+    },
+    {
+        "content": "In clustering, what is the task of an unsupervised learning algorithm?",
+        "options": [
+            "To predict a continuous value",
+            "To group similar data points",
+            "To assign labels or categories to input data",
+            "To increase model complexity"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Unsupervised Learning Techniques"
+    },
+    {
+        "content": "What is the purpose of the 'elbow method' in clustering?",
+        "options": [
+            "To visualize data better",
+            "To determine the optimal number of clusters",
+            "To preprocess data for visualization",
+            "To reduce dimensionality"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Unsupervised Learning Techniques"
+    },
+    {
+        "content": "What type of problem does dimensionality reduction in unsupervised learning address?",
+        "options": [
+            "Classification",
+            "Clustering",
+            "Predicting continuous values",
+            "Reducing dimensionality"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Unsupervised Learning Techniques"
+    },
+    {
+        "content": "Which unsupervised learning technique is commonly used for dimensionality reduction?",
+        "options": [
+            "PCA (Principal Component Analysis)",
+            "K-Means",
+            "Decision Trees",
+            "Logistic Regression"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Unsupervised Learning Techniques"
+    },
+    {
+        "content": "What is the fundamental building block of neural networks?",
+        "options": [
+            "Neuron",
+            "Node",
+            "Edge",
+            "Layer"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Neural Networks and Deep Learning"
+    },
+    {
+        "content": "What is the purpose of an activation function in a neural network?",
+        "options": [
+            "To initiate training",
+            "To determine the learning rate",
+            "To introduce non-linearity",
+            "To visualize data better"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Neural Networks and Deep Learning"
+    },
+    {
+        "content": "In deep learning, what is the term for a neural network layer that does not receive input from the external environment?",
+        "options": [
+            "Hidden Layer",
+            "Input Layer",
+            "Output Layer",
+            "Convolutional Layer"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Neural Networks and Deep Learning"
+    },
+    {
+        "content": "What is the purpose of 'backpropagation' in the training of neural networks?",
+        "options": [
+            "To initialize weights",
+            "To update model parameters based on prediction errors",
+            "To introduce non-linearity",
+            "To visualize data better"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Neural Networks and Deep Learning"
+    },
+    {
+        "content": "Which type of neural network architecture is commonly used for image recognition?",
+        "options": [
+            "Recurrent Neural Network (RNN)",
+            "Feedforward Neural Network",
+            "Convolutional Neural Network (CNN)",
+            "Radial Basis Function Network (RBFN)"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Neural Networks and Deep Learning"
+    },
+    {
+        "content": "What is the primary goal of cybersecurity?",
+        "options": [
+            "To increase model complexity",
+            "To protect information and systems from unauthorized access, attacks, and damage",
+            "To calculate encryption keys",
+            "To visualize data better"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Cybersecurity"
+    },
+    {
+        "content": "What is the term for the practice of protecting systems, networks, and programs from digital attacks?",
+        "options": [
+            "Data Science",
+            "Cybersecurity",
+            "Machine Learning",
+            "Blockchain"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Cybersecurity"
+    },
+    {
+        "content": "What is the purpose of 'firewalls' in cybersecurity?",
+        "options": [
+            "To visualize data better",
+            "To protect against viruses",
+            "To filter and control incoming and outgoing network traffic",
+            "To increase model complexity"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Cybersecurity"
+    },
+    {
+        "content": "What is the term for malicious software designed to harm or exploit computers or networks?",
+        "options": [
+            "Encryption",
+            "Firewall",
+            "Malware",
+            "Authentication"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Cybersecurity"
+    },
+    {
+        "content": "Which cybersecurity principle involves keeping software and systems up-to-date with the latest security patches?",
+        "options": [
+            "Least Privilege",
+            "Security by Design",
+            "Zero Trust",
+            "Patch Management"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Introduction to Cybersecurity"
+    },
+    {
+        "content": "What is the primary goal of network security?",
+        "options": [
+            "To visualize data better",
+            "To protect information and systems from unauthorized access, attacks, and damage",
+            "To calculate encryption keys",
+            "To increase model complexity"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Network Security Basics"
+    },
+    {
+        "content": "What is the purpose of a 'firewall' in network security?",
+        "options": [
+            "To protect against viruses",
+            "To filter and control incoming and outgoing network traffic",
+            "To increase model complexity",
+            "To visualize data better"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Network Security Basics"
+    },
+    {
+        "content": "Which network security measure involves verifying the identity of users or devices before granting access?",
+        "options": [
+            "Firewall",
+            "Intrusion Detection",
+            "Encryption",
+            "Authentication"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Network Security Basics"
+    },
+    {
+        "content": "What is the purpose of 'VPN (Virtual Private Network)' in network security?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To securely connect remote users to a private network over the internet",
+            "To filter and control network traffic"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Network Security Basics"
+    },
+    {
+        "content": "What is the term for a network security measure that monitors and analyzes network traffic for suspicious activities or patterns?",
+        "options": [
+            "Encryption",
+            "Firewall",
+            "Intrusion Detection System (IDS)",
+            "Authentication"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Network Security Basics"
+    },
+    {
+        "content": "What is the primary goal of vulnerability assessment in cybersecurity?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To identify and mitigate security vulnerabilities in systems and networks",
+            "To calculate encryption keys"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Cyber Threats and Vulnerability Assessment"
+    },
+    {
+        "content": "What is a 'cyber threat' in the context of cybersecurity?",
+        "options": [
+            "A potential security risk",
+            "A type of firewall",
+            "A secure network protocol",
+            "A threat detected by antivirus software"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Cyber Threats and Vulnerability Assessment"
+    },
+    {
+        "content": "What is the purpose of 'penetration testing' in cybersecurity?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To simulate cyber attacks to identify vulnerabilities and weaknesses",
+            "To calculate encryption keys"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Cyber Threats and Vulnerability Assessment"
+    },
+    {
+        "content": "What is the concept of a 'zero-day vulnerability' in cybersecurity?",
+        "options": [
+            "A vulnerability that exists for zero days",
+            "A vulnerability that has been zeroed out",
+            "A vulnerability that is known but not yet patched",
+            "A newly discovered vulnerability with no available fix or patch"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Cyber Threats and Vulnerability Assessment"
+    },
+    {
+        "content": "Which of the following is a common method used by cyber attackers to trick individuals into revealing sensitive information?",
+        "options": [
+            "Firewall",
+            "Encryption",
+            "Phishing",
+            "Intrusion Detection"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Cyber Threats and Vulnerability Assessment"
+    },
+    {
+        "content": "What is the primary goal of incident response in cybersecurity?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To quickly identify, manage, and mitigate security incidents",
+            "To calculate encryption keys"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Incident Response and Digital Forensics"
+    },
+    {
+        "content": "What is the term for a planned and coordinated approach to managing and responding to cybersecurity incidents?",
+        "options": [
+            "Firewall",
+            "Incident Response Plan",
+            "Encryption",
+            "Phishing"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Incident Response and Digital Forensics"
+    },
+    {
+        "content": "What is the purpose of 'digital forensics' in cybersecurity?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To collect, analyze, and preserve electronic evidence for legal purposes",
+            "To calculate encryption keys"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Incident Response and Digital Forensics"
+    },
+    {
+        "content": "What is the first step in the incident response process?",
+        "options": [
+            "Containment",
+            "Identification",
+            "Recovery",
+            "Prevention"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Incident Response and Digital Forensics"
+    },
+    {
+        "content": "What is the role of 'chain of custody' in digital forensics?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To ensure the integrity and admissibility of digital evidence by documenting its handling",
+            "To calculate encryption keys"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Incident Response and Digital Forensics"
+    },
+    {
+        "content": "What is the term for a model that provides on-demand access to computing resources over the internet?",
+        "options": [
+            "On-Premise Computing",
+            "Edge Computing",
+            "Distributed Computing",
+            "Cloud Computing"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Security in Cloud Computing"
+    },
+    {
+        "content": "What is the shared responsibility model in cloud computing security?",
+        "options": [
+            "A model where security is the sole responsibility of the cloud provider",
+            "A model where security is the sole responsibility of the cloud customer",
+            "A model where security is shared between the cloud provider and the customer",
+            "A model where security is automated and requires no user input"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Security in Cloud Computing"
+    },
+    {
+        "content": "What is the purpose of 'encryption' in the context of cloud security?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To protect sensitive data by converting it into unreadable ciphertext",
+            "To calculate encryption keys"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Security in Cloud Computing"
+    },
+    {
+        "content": "What is the term for a security measure that restricts access to cloud resources based on predefined policies?",
+        "options": [
+            "Firewall",
+            "Virtual Private Network (VPN)",
+            "Access Control List (ACL)",
+            "Identity and Access Management (IAM)"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Security in Cloud Computing"
+    },
+    {
+        "content": "What is the purpose of 'multi-factor authentication' in cloud security?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To add an additional layer of security by requiring multiple forms of verification",
+            "To calculate encryption keys"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Security in Cloud Computing"
+    },
+    {
+        "content": "Which programming language is primarily used for building the structure of web pages?",
+        "options": [
+            "Java",
+            "Python",
+            "HTML",
+            "CSS"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Web Development"
+    },
+    {
+        "content": "What does CSS stand for in the context of web development?",
+        "options": [
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Web Development"
+    },
+    {
+        "content": "Which of the following is a markup language used for structuring content on the web?",
+        "options": [
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "PHP"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Web Development"
+    },
+    {
+        "content": "What is the purpose of JavaScript in web development?",
+        "options": [
+            "To style web pages",
+            "To create and manipulate the structure of web pages",
+            "To add interactivity and dynamic behavior to web pages",
+            "To query databases"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Introduction to Web Development"
+    },
+    {
+        "content": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<link>",
+            "<a>",
+            "<hlink>",
+            "<url>"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Introduction to Web Development"
+    },
+    {
+        "content": "What is Node.js?",
+        "options": [
+            "A front-end JavaScript framework",
+            "A server-side JavaScript runtime",
+            "A database management system",
+            "A CSS preprocessor"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Backend Development with Node.js and Nest"
+    },
+    {
+        "content": "What is the primary use of Node.js in web development?",
+        "options": [
+            "To style web pages",
+            "To create and manipulate the structure of web pages",
+            "To add interactivity and dynamic behavior to web pages",
+            "To build scalable and server-side applications using JavaScript"
+        ],
+        "correctOption": 3,
+        "testQuizId": "Backend Development with Node.js and Nest"
+    },
+    {
+        "content": "Which package manager is commonly used with Node.js?",
+        "options": [
+            "npm",
+            "pip",
+            "yarn",
+            "composer"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Backend Development with Node.js and Nest"
+    },
+    {
+        "content": "What is the purpose of the 'require' function in Node.js?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To include external modules or files in a Node.js application",
+            "To control the font size of text"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Backend Development with Node.js and Nest"
+    },
+    {
+        "content": "What is Express.js in the context of Node.js?",
+        "options": [
+            "A front-end JavaScript framework",
+            "A server-side JavaScript runtime",
+            "A web application framework for Node.js",
+            "A package manager for Node.js"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Backend Development with Node.js and Nest"
+    },
+    {
+        "content": "What is the purpose of a database in the context of web development?",
+        "options": [
+            "To style web pages",
+            "To create and manipulate the structure of web pages",
+            "To store and manage data for web applications",
+            "To build scalable and server-side applications using JavaScript"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Database Design and Management"
+    },
+    {
+        "content": "What is the term for a collection of organized data that can be easily accessed, managed, and updated?",
+        "options": [
+            "Data Set",
+            "Data Structure",
+            "Database",
+            "Data Block"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Database Design and Management"
+    },
+    {
+        "content": "Which type of database model uses tables to organize data and relationships?",
+        "options": [
+            "Document-oriented",
+            "Relational",
+            "Graph",
+            "NoSQL"
+        ],
+        "correctOption": 1,
+        "testQuizId": "Database Design and Management"
+    },
+    {
+        "content": "What is the purpose of the 'primary key' in a relational database?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To uniquely identify each record in a table",
+            "To control the font size of text"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Database Design and Management"
+    },
+    {
+        "content": "What is SQL an acronym for?",
+        "options": [
+            "Structured Query Language",
+            "Style Query Language",
+            "System Query Language",
+            "Scripted Query Language"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Database Design and Management"
+    },
+    {
+        "content": "What is Angular?",
+        "options": [
+            "A programming language",
+            "A server-side runtime",
+            "A front-end web framework",
+            "A database management system"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Frontend Development with Angular"
+    },
+    {
+        "content": "Which language is primarily used for writing Angular applications?",
+        "options": [
+            "JavaScript",
+            "Python",
+            "TypeScript",
+            "Java"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Frontend Development with Angular"
+    },
+    {
+        "content": "What is the purpose of 'components' in Angular?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To create modular and reusable UI elements",
+            "To control the font size of text"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Frontend Development with Angular"
+    },
+    {
+        "content": "What is the Angular CLI?",
+        "options": [
+            "A command-line interface for creating and managing Angular applications",
+            "A graphical user interface for Angular development",
+            "A library for database management in Angular",
+            "An advanced styling tool for Angular applications"
+        ],
+        "correctOption": 0,
+        "testQuizId": "Frontend Development with Angular"
+    },
+    {
+        "content": "What is the purpose of 'directives' in Angular?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To add behavior and modify the DOM elements",
+            "To control the font size of text"
+        ],
+        "correctOption": 2,
+        "testQuizId": "Frontend Development with Angular"
+    },
+    {
+        "content": "What does 'REST' stand for in the context of web development?",
+        "options": [
+            "Representational State Transfer",
+            "Remote Service Technology",
+            "Responsive Server Technique",
+            "Resourceful State Transition"
+        ],
+        "correctOption": 0,
+        "testQuizId": "RESTful API Development and Integration"
+    },
+    {
+        "content": "What is the primary architectural style used in RESTful API development?",
+        "options": [
+            "SOAP",
+            "JSON-RPC",
+            "GraphQL",
+            "REST"
+        ],
+        "correctOption": 3,
+        "testQuizId": "RESTful API Development and Integration"
+    },
+    {
+        "content": "What is an 'HTTP verb' in the context of RESTful APIs?",
+        "options": [
+            "A type of encryption",
+            "A type of authentication",
+            "A request method used to perform a specific action on a resource",
+            "A type of database"
+        ],
+        "correctOption": 2,
+        "testQuizId": "RESTful API Development and Integration"
+    },
+    {
+        "content": "What is the purpose of the 'GET' HTTP verb in RESTful API development?",
+        "options": [
+            "To increase model complexity",
+            "To visualize data better",
+            "To retrieve data from a specified resource",
+            "To control the font size of text"
+        ],
+        "correctOption": 2,
+        "testQuizId": "RESTful API Development and Integration"
+    },
+    {
+        "content": "What is an 'HTTP status code'?",
+        "options": [
+            "A type of encryption",
+            "A code that indicates the success or failure of an HTTP request",
+            "A type of authentication",
+            "A code used in SQL databases"
+        ],
+        "correctOption": 1,
+        "testQuizId": "RESTful API Development and Integration"
+    }
+]

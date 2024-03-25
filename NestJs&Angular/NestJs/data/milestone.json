@@ -1,0 +1,162 @@
+[
+  {
+    "roadmap": "DevOps",
+    "title": "Introduction to Linux",
+    "description": "Understand the basics of the Linux operating system and how to manage it.",
+    "quizId": "Introduction to Linux",
+    "milestoneId": "Introduction to Linux",
+    "orderNumber": 1
+  },
+  {
+    "roadmap": "DevOps",
+    "title": "Docker for Beginners",
+    "description": "Learn how to containerize applications using Docker and manage containers.",
+    "quizId": "Docker for Beginners",
+    "milestoneId": "Docker for Beginners",
+    "orderNumber": 2
+  },
+  {
+    "roadmap": "DevOps",
+    "title": "Mastering Terraform",
+    "description": "Gain expertise in Infrastructure as Code (IaC) with Terraform.",
+    "quizId": "Mastering Terraform",
+    "milestoneId": "Mastering Terraform",
+    "orderNumber": 3
+  },
+  {
+    "roadmap": "DevOps",
+    "title": "Continuous Integration/Continuous Deployment",
+    "description": "Understand the principles of CI/CD and implement pipelines.",
+    "quizId": "Continuous Integration/Continuous Deployment",
+    "milestoneId": "Continuous Integration/Continuous Deployment",
+    "orderNumber": 4
+  },
+  {
+    "roadmap": "DevOps",
+    "title": "Kubernetes Fundamentals",
+    "description": "Explore orchestration with Kubernetes and how to deploy clusters.",
+    "quizId": "Kubernetes Fundamentals",
+    "milestoneId": "Kubernetes Fundamentals",
+    "orderNumber": 5
+  },
+  {
+    "roadmap": "MachineLearning",
+    "title": "Introduction to Machine Learning",
+    "description": "Understand the basics of machine learning and its applications.",
+    "quizId": "Introduction to Machine Learning",
+    "milestoneId": "Introduction to Machine Learning",
+    "orderNumber": 1
+  },
+  {
+    "roadmap": "MachineLearning",
+    "title": "Data Preprocessing and Feature Engineering",
+    "description": "Learn techniques for preparing and cleaning data for machine learning models.",
+    "quizId": "Data Preprocessing and Feature Engineering",
+    "milestoneId": "Data Preprocessing and Feature Engineering",
+    "orderNumber": 2
+  },
+  {
+    "roadmap": "MachineLearning",
+    "title": "Supervised Learning Algorithms",
+    "description": "Explore and implement supervised learning algorithms such as regression and classification.",
+    "quizId": "Supervised Learning Algorithms",
+    "milestoneId": "Supervised Learning Algorithms",
+    "orderNumber": 3
+  },
+  {
+    "roadmap": "MachineLearning",
+    "title": "Unsupervised Learning Techniques",
+    "description": "Understand and apply unsupervised learning methods like clustering and dimensionality reduction.",
+    "quizId": "Unsupervised Learning Techniques",
+    "milestoneId": "Unsupervised Learning Techniques",
+    "orderNumber": 4
+  },
+  {
+    "roadmap": "MachineLearning",
+    "title": "Neural Networks and Deep Learning",
+    "description": "Delve into neural networks, deep learning architectures, and their applications.",
+    "quizId": "Neural Networks and Deep Learning",
+    "milestoneId": "Neural Networks and Deep Learning",
+    "orderNumber": 5
+  },
+  {
+    "roadmap": "Cybersecurity",
+    "title": "Introduction to Cybersecurity",
+    "description": "Understand the fundamentals of cybersecurity and its importance in protecting information.",
+    "quizId": "Introduction to Cybersecurity",
+    "milestoneId": "Introduction to Cybersecurity",
+    "orderNumber": 1
+  },
+  {
+    "roadmap": "Cybersecurity",
+    "title": "Network Security Basics",
+    "description": "Learn the basics of securing computer networks, including firewalls and intrusion detection systems.",
+    "quizId": "Network Security Basics",
+    "milestoneId": "Network Security Basics",
+    "orderNumber": 2
+  },
+  {
+    "roadmap": "Cybersecurity",
+    "title": "Cyber Threats and Vulnerability Assessment",
+    "description": "Explore common cyber threats and techniques for vulnerability assessment.",
+    "quizId": "Cyber Threats and Vulnerability Assessment",
+    "milestoneId": "Cyber Threats and Vulnerability Assessment",
+    "orderNumber": 3
+  },
+  {
+    "roadmap": "Cybersecurity",
+    "title": "Incident Response and Digital Forensics",
+    "description": "Develop skills in responding to cybersecurity incidents and conducting digital forensics.",
+    "quizId": "Incident Response and Digital Forensics",
+    "milestoneId": "Incident Response and Digital Forensics",
+    "orderNumber": 4
+  },
+  {
+    "roadmap": "Cybersecurity",
+    "title": "Security in Cloud Computing",
+    "description": "Understand security considerations in cloud environments and best practices.",
+    "quizId": "Security in Cloud Computing",
+    "milestoneId": "Security in Cloud Computing",
+    "orderNumber": 5
+  },
+  {
+    "roadmap": "FullStackWebDev",
+    "title": "Introduction to Web Development",
+    "description": "Understand the basics of web development, including HTML, CSS, and JavaScript.",
+    "quizId": "Introduction to Web Development",
+    "milestoneId": "Introduction to Web Development",
+    "orderNumber": 1
+  },
+  {
+    "roadmap": "FullStackWebDev",
+    "title": "Backend Development with Node.js and Nest",
+    "description": "Learn server-side development using Node.js and Nest framework.",
+    "quizId": "Backend Development with Node.js and Nest",
+    "milestoneId": "Backend Development with Node.js and Nest",
+    "orderNumber": 2
+  },
+  {
+    "roadmap": "FullStackWebDev",
+    "title": "Database Design and Management",
+    "description": "Explore database concepts and learn to design and manage databases for web applications.",
+    "quizId": "Database Design and Management",
+    "milestoneId": "Database Design and Management",
+    "orderNumber": 3
+  },
+  {
+    "roadmap": "FullStackWebDev",
+    "title": "Frontend Development with Angular",
+    "description": "Master client-side development using Angular framework for building dynamic user interfaces.",
+    "quizId": "Frontend Development with Angular",
+    "milestoneId": "Frontend Development with Angular",
+    "orderNumber": 4
+  },
+  {
+    "roadmap": "FullStackWebDev",
+    "title": "RESTful API Development and Integration",
+    "description": "Develop and integrate RESTful APIs for communication between frontend and backend.",
+    "quizId": "RESTful API Development and Integration",
+    "milestoneId": "RESTful API Development and Integration",
+    "orderNumber": 5
+  }
+]
