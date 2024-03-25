@@ -1,0 +1,19 @@
+<div class="container mt-5 p-4 custom-background">
+  <h1 class="display-4 text-center mb-4">Explore Our Learning Paths</h1>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <p class="lead text-center">
+        Embark on a journey of knowledge and discovery with our comprehensive learning paths. As you traverse the dynamic landscapes of DevOps, AI, and Data Science, you'll encounter meticulously curated content designed to elevate your expertise and guide you towards technological mastery. Our platform offers a sanctuary for learners of all levels — from beginners taking their first steps in tech to seasoned professionals seeking to refine their skills.
+      
+        Delve into the intricacies of software development, understand the nuances of machine learning algorithms, and unravel the complexities of secure systems architecture. With each roadmap, you're not just learning — you're experiencing the transformative power of knowledge tailored to fit the demands of industry standards and beyond.
+       </p>
+      
+    </div>
+  </div>
+
+  <div class="roadmap-grid" *ngIf="roadmaps?.length">
+    <div *ngFor="let roadmap of roadmaps" (click)="navigateToRoadmap(roadmap.id)">
+      <app-roadmapitem [name]="roadmap.id"></app-roadmapitem> 
+    </div>
+  </div>
+  

@@ -1,0 +1,43 @@
+/* Style for the quiz container */
+.quiz-container {
+  background-color: var(--color4); /* Very Pale Lilac for a lighter look */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto; /* Centering the container */
+  max-width: 700px; /* Optimal width for readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the timer */
+.quiz-container p {
+  font-size: 1.2rem;
+  color: var(--color1); /* Deep Twilight Blue for emphasis */
+  margin-bottom: 1.5rem; /* Space before the questions start */
+  font-weight: bold;
+}
+
+/* Style for the form */
+.quiz-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for each question component */
+.app-question {
+  margin-bottom: 1rem; /* Space between each question */
+}
+
+/* Style for the submit button */
+.btn-primary {
+  background-color: var(--color1); /* Deep Twilight Blue */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Center the button in the form */
+  margin-top: 20px; /* Space above the button */
+}
+

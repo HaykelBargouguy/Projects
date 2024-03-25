@@ -1,0 +1,29 @@
+<div class="login-page">
+    <div class="login-container">
+      <h2 class="form-title">Welcome Back!</h2>
+      <p class="form-subtitle">Please enter your details to log in.</p>
+  
+      <form #loginForm="ngForm" class="form-style">
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input email required type="text" id="email" ngModel name="email" class="form-control" required #email="ngModel">
+        <div class="alert alert-danger" *ngIf="!email.valid && email.touched">
+          L'email n'est pas valide.
+        </div>
+  
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" ngModel name="password" class="form-control" required minlength="4" #password="ngModel">
+        <div class="alert alert-danger" *ngIf="!password.valid && password.touched">
+          Le password doit contenir au moins 4 caractères.
+        </div>
+  
+        <!-- Submit Button -->
+        <button [disabled]="loginForm.invalid" (click)="login(email.value, password.value)" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+
+    <div class="login-image">
+        <img src="../../assets/images/login.jpg" alt="Login Image">
+      </div>
+</div>

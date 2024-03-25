@@ -1,0 +1,64 @@
+<div class="admin-panel">
+  <div class="sidebar-menu">
+    <button (click)="navigateTo('achievements')" [ngClass]="{'active': currentView === 'achievements'}">Achievements</button>
+    <button (click)="navigateTo('editProfile')" [ngClass]="{'active': currentView === 'editProfile'}">Edit Profile</button>
+    <button class="btn-primary btn-logout" (click)="logout()">Logout</button>
+  </div>
+
+  <div class="content-area">
+    <div *ngIf="currentView === 'editProfile'">
+      <div class="profile-container">
+            <div class="profile-pic">
+              {{ user.username }}
+            </div>
+            <h2>Edit Profile</h2>
+            <form (ngSubmit)="updateProfile()">
+              <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" [(ngModel)]="user.username" name="username" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" [(ngModel)]="user.email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" [(ngModel)]="user.password" name="password" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" [(ngModel)]="confirmPassword" name="confirmPassword" class="form-control" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+          </div>
+          
+    </div>
+
+    <div *ngIf="currentView === 'achievements'">
+      <div class="achievements-header">
+        <h1>Achievements</h1>
+        <p class="motivational-quote">"Every step in learning is a step closer to realizing your limitless potential."</p>
+      </div>
+    
+      <div class="roadmap-header" *ngFor="let roadmapData of roadmapsProgress">
+        <h2>{{ roadmapData.roadmap.title }}</h2>
+        <div class="progress-container">
+          <div *ngIf="roadmapData.isSubscribed" class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" 
+                 [attr.aria-valuenow]="roadmapData.progress" aria-valuemin="0" aria-valuemax="100" 
+                 [style.width]="roadmapData.progress + '%'">
+              {{ roadmapData.progress }}% Complete
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
+  
+

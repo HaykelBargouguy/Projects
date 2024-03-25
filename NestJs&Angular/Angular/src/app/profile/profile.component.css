@@ -1,0 +1,216 @@
+.profile-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label, .form-control {
+    width: 100%;
+    display: block;
+  }
+
+  .btn-primary {
+    background-color: var(--color1); /* Use your color variable */
+    /* Other button styles */
+  }
+
+  .sidebar-menu .btn-logout.btn-logout {
+    background-color: #ff6961    ;
+    color: white;
+}
+
+.sidebar-menu .btn-logout.btn-logout:hover {
+    background-color: #C85250;
+}
+
+.achievements-container {
+  margin: auto;
+  padding: 20px;
+}
+
+.roadmap-header {
+  margin-bottom: 30px; /* Space between roadmap entries */
+  padding: 15px;
+  border: 1px solid #e3e3e3; /* Light grey border for each roadmap */
+  border-radius: 8px; /* Rounded corners for the roadmap containers */
+  background-color: #fafafa; /* Slightly off-white background */
+}
+
+.roadmap-header h2 {
+  margin-top: 0;
+  color: var(--color1); /* Title color to match the theme */
+}
+
+.progress {
+  background-color: #ddd;
+  border-radius: 5px;
+  max-width: 90%;
+  margin: 20px auto; /* Centered with vertical margin */
+}
+
+.progress-bar {
+  background-color: var(--color1); /* Light Lavender for progress bar */
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+  .profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the div a circle */
+    background-color: var(--color2); /* Your choice of background color */
+    color: white; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .sidebar-menu {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: var(--color2);
+    color: white;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-menu button.active {
+    background-color: var(--color1);
+    color: white;
+  }
+  
+  .sidebar-menu button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-menu button:hover {
+    background-color: var(--color3);
+  }
+  
+  .admin-panel {
+    display: flex;
+    justify-content: center; /* This will center the child horizontally */
+    align-items: start; /* This aligns children vertically to the start, you can use 'center' if you want vertical centering */
+}
+
+.content-area {
+    flex-grow: 1;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto; /* This will apply automatic margin to all sides, centering the element */
+    overflow-x: auto;
+}
+  
+  .content-area .content-title {
+    font-size: 1.5rem;
+    color: var(--color1);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+/* Other styles remain unchanged */
+
+.achievements-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adds space between the cards */
+  justify-content: center; /* Centers cards in the container */
+  padding: 20px;
+}
+
+.roadmap-header {
+  border: 1px solid #ddd; /* Light grey border for each roadmap */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: calc(33.333% - 20px); /* Three items per row with gap correction */
+  margin-bottom: 20px;
+  background-color: #fff; /* White background for the card */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.roadmap-header:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+
+@media (max-width: 1024px) {
+  .roadmap-header {
+    width: calc(50% - 20px); /* Two items per row on medium screens */
+  }
+}
+
+
+ /* Achievements Container Styles */
+.achievements-container {
+  display: flex; /* Use flexbox for horizontal layout */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 20px; /* Space between the roadmap containers */
+  padding: 20px;
+  align-items: start; /* Align items to the start of the container */
+  white-space: nowrap; /* Prevent wrapping of items */
+}
+
+.roadmap-header {
+  flex: 0 0 auto; /* Don't allow the roadmap containers to grow or shrink */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 15px;
+  width: 300px; /* Fixed width for each roadmap */
+  /* No bottom margin since they are in a single line */
+}
+
+/* Other styles remain unchanged */
+
+
+/* Achievements Header Styles */
+.achievements-header {
+  text-align: center;
+  margin-bottom: 40px; /* Space between the header and the achievement cards */
+}
+
+.achievements-header h1 {
+  font-size: 2rem; /* Larger font size for the heading */
+  color: var(--color1); /* Using your primary color */
+  margin-bottom: 10px; /* Space between the title and the quote */
+}
+
+.motivational-quote {
+  font-size: 1.2rem; /* Slightly larger font for the quote */
+  font-style: italic; /* Italicize the quote */
+  color: var(--color1); /* A secondary color for the quote */
+  opacity: 0.8; /* Slightly lower opacity for a subtle effect */
+}
+
+/* Other styles remain unchanged */
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .achievements-header h1 {
+    font-size: 1.8rem; /* Slightly smaller font size on smaller screens */
+  }
+
+  .motivational-quote {
+    font-size: 1rem;
+  }
+}
+

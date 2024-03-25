@@ -1,0 +1,8 @@
+<div class="question-container">
+  <h3>{{ question.content }}</h3>
+  <ul>
+    <li *ngFor="let option of question.options; let i = index">
+      <input type="radio" [name]="'question_' + question.testQuiz + '_' + question.id" [value]="i" (change)="onSelectionChange(i)"> {{ option }}
+    </li>
+  </ul>
+</div>

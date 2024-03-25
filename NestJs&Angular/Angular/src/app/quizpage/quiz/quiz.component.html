@@ -1,0 +1,9 @@
+<div class="quiz-container">
+    <p>Time Remaining: {{ remainingTime }} seconds</p>
+    <form #quiz="ngForm">
+        <div *ngFor="let question of questions">
+            <app-question [question]="question" (answer)="onAnswer(question.id, $event)"></app-question>
+        </div>
+        <button [disabled]="quiz.invalid" class="btn btn-primary" (click)="submitQuiz()">Submit</button>
+    </form>
+</div>

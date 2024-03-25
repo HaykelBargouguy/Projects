@@ -1,0 +1,9 @@
+.score-display {
+    font-size: 1.8rem; /* Larger font size for emphasis */
+    color: var(--color2); /* Soft Periwinkle Blue for a gentle contrast */
+    font-weight: bold;
+    text-align: center; /* Center the text if it's standalone */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  

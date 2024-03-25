@@ -1,0 +1,31 @@
+.footer {
+  flex-shrink: 0;
+  background-color: var(--color4); /* Very Pale Lilac */
+  color: var(--color1); /* Deep Twilight Blue */
+  box-shadow: 0 -4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.footer-link {
+  color: var(--color1); /* Deep Twilight Blue */
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--color2); /* Soft Periwinkle Blue */
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer .row > div {
+    margin-bottom: 15px;
+  }
+}
+
+/* Remove redundant .footer rule */
+
+.footer .row > div {
+  margin-bottom: 0; /* If there's no need for bottom margin */
+}
+.footer {
+  flex-shrink: 0;
+}

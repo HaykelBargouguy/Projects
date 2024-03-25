@@ -1,0 +1,46 @@
+<div class="admin-panel">
+    <div class="sidebar-menu">
+      <div *ngFor="let group of buttonGroups">
+        <div *ngFor="let button of group.buttons">
+          <button [class.active]="isContentActive(button.id)" (click)="showComponent(button.id)">
+            {{ button.label }}
+          </button>
+        </div>
+        <hr>
+      </div>
+    </div>
+      <div class="content-area">
+    <h2 class="content-title">{{ activeComponent | titlecase }}</h2>
+    <!-- forms for adding data -->
+    <ng-container *ngFor="let addingType of addingTypes">
+      <app-add-data 
+        *ngIf="isContentActive(addingType)"
+        [apiEndpoint]="apiEndpoint" 
+        [fields]="fields" 
+        [fromType]="'add'">
+      </app-add-data>
+    </ng-container>
+  
+      <!-- forms for updating -->
+      <ng-container *ngFor="let updatingType of updatingTypes">
+        <app-add-data 
+        [rowData]="selectedRowData"
+        [apiEndpoint]="apiEndpoint" 
+        [fields]="fields" 
+        [fromType]="'update'" 
+        *ngIf="isContentActive(updatingType)">
+    </app-add-data>
+      </ng-container>
+  
+      <!-- tables for geting data -->
+      <ng-container *ngFor="let gettingType of gettingTypes">
+        <app-json-table
+          [apiEndpoint]="apiEndpoint"
+          (updateAdminRequest)="showComponent(gettingType.updateComponent)"
+          (updateAdminRequest)="handleUpdateAdminRequest($event)"
+          *ngIf="isContentActive(gettingType.name)">
+        </app-json-table>
+      </ng-container>
+    </div>
+  </div>
+  

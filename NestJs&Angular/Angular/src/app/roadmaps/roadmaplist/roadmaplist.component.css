@@ -1,0 +1,35 @@
+.container {
+  margin-top: 5rem; /* More space at the top */
+  background-color: var(--color4); /* Very Pale Lilac for a softer look */
+  padding: 2rem; /* Consistent padding */
+  color: var(--color1); /* Deep Twilight Blue text for readability */
+  border-radius: 0.5rem; /* Soften the edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger font-size for the main heading */
+  color: var(--color1); /* Soft Periwinkle Blue for a gentle contrast */
+  margin-bottom: 2rem; /* More space below the heading */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle text shadow for depth */
+}
+
+p.lead {
+  font-size: 1.25rem; /* Larger font-size for introductory paragraph */
+  margin-bottom: 3rem; /* Space before the grid starts */
+}
+
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  grid-gap: 20px;
+  padding: 3rem; /* Spacing around the grid */
+}
+
+@media screen and (max-width: 600px) {
+  .roadmap-grid {
+    grid-template-columns: 1fr; /* Single column on small screens */
+    grid-gap: 10px; /* Smaller gap on small screens */
+    padding: 1rem; /* Smaller padding on small screens */
+  }
+}

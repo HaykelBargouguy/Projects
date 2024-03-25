@@ -1,0 +1,16 @@
+<div class="page-header">
+  <h1>{{ roadmap?.title }} Roadmap</h1>
+  <p>Embark on a journey of continuous learning and growth!</p>
+  
+  <div *ngIf="isSubscribed" class="progress">
+    <div class="progress-bar progress-bar-info" role="progressbar" 
+         [attr.aria-valuenow]="roadmapProgress" aria-valuemin="0" aria-valuemax="100" 
+         [style.width]="roadmapProgress + '%'">
+      {{ roadmapProgress }}% Complete 
+    </div>
+  </div>
+</div>
+
+<div class="custom-dark-list">
+  <app-milestone *ngFor="let milestone of milestones" [milestone]="milestone"></app-milestone>
+</div>

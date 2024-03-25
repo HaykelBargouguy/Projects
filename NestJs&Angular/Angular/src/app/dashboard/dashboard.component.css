@@ -1,0 +1,16 @@
+.users-list-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto; /* Centering the container */
+    padding: 1rem;
+    background-color: var(--color4); /* Very Pale Lilac */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .users-list-title {
+    font-size: 2rem; /* Larger font size for emphasis */
+    color: var(--color1); /* Deep Twilight Blue */
+    margin-bottom: 1.5rem; /* Spacing below the title */
+  }
+  

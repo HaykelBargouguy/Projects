@@ -1,0 +1,29 @@
+<div>
+  <form #form="ngForm">
+    <div *ngFor="let field of fields">
+      <label for="{{field.name}}">{{field.label}}</label>
+      <ng-container *ngIf="field.type === 'dropdown'">
+        <select [(ngModel)]="formData[field.name]"
+                name="{{field.name}}"
+                class="form-control"
+                [id]="field.name"
+                required={{!!field.required}}>
+          <option *ngFor="let option of field.options" [value]="option.value">{{option.text}}</option>
+        </select>
+      </ng-container>
+
+      <ng-container *ngIf="field.type !== 'dropdown'">
+        <input [type]="field.type"
+               [(ngModel)]="formData[field.name]"
+               name="{{field.name}}"
+               class="form-control"
+               [id]="field.name"
+               required={{!!field.required}}>
+      </ng-container>
+      <div class="alert alert-danger" *ngIf="!form.controls[field.name]?.valid && form.controls[field.name]?.touched">
+        {{field.errorMessage}}
+      </div>
+    </div>
+    <button [disabled]="form.invalid" class="btn btn-primary" (click)="submitForm()">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,68 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-container {
+  background-color: var(--color4); /* Very Pale Lilac */
+  padding: 20px;
+  border-radius: 8px;
+  margin-right: 20px; /* Spacing between form and image */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.form-title {
+  color: var(--color1); /* Deep Twilight Blue */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-subtitle {
+  color: var(--color2); /* Soft Periwinkle Blue */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.alert.alert-danger {
+  color: #f44336;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.btn-primary {
+  background-color: var(--color1); /* Deep Twilight Blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: darken(var(--color1), 10%);
+}
+
+.login-image img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+

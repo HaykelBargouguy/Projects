@@ -1,0 +1,56 @@
+.card,
+.card.custom-dark-list-item {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s, background-color 0.3s;
+  background-color: var(--color4); /* Soft Periwinkle Blue */
+  color: var(--color1); /* Deep Twilight Blue text */
+  margin-bottom: 20px;
+}
+
+.card:hover,
+.card.custom-dark-list-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: var(--color3); /* Light Lavender for hover */
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.chevron {
+  color: var(--color1); /* Deep Twilight Blue for icon */
+  cursor: pointer;
+  /* If you need specific sizes or additional styles for the icon, add them here */
+}
+
+.details-section {
+  margin: 20px;
+  background-color: var(--color4); /* Very Pale Lilac for details section */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--color3); /* Light Lavender border for depth */
+  width: calc(100% - 40px); /* Adjust width to allow for padding */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-title {
+  color: var(--color1); /* Deep Twilight Blue text */
+}
+
+.btn-primary {
+  background-color: var(--color1); /* Deep Twilight Blue background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+
+

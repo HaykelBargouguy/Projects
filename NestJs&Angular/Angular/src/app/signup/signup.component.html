@@ -1,0 +1,97 @@
+<div class="form-container">
+    <h2 class="form-title">Welcome to Our Platform</h2>
+    <p class="form-subtitle">Please fill in the details to sign up.</p>
+    <form #singupForm="ngForm">
+        <label for="username"> username :</label>
+        <input username 
+            required 
+            type="text" 
+            ngModel 
+            name="username"
+            class="form-control"
+            id="username"
+            #username="ngModel">
+        <div class="alert alert-danger" *ngIf="!username.valid && username.touched">
+            le username est obligatoire
+        </div>
+        <label for="firstname"> firstname :</label>
+        <input firstname 
+            required 
+            type="text" 
+            ngModel 
+            name="firstname"
+            class="form-control"
+            id="firstname"
+            #firstname="ngModel">
+        <div class="alert alert-danger" *ngIf="!firstname.valid && firstname.touched">
+            le firstname est obligatoire
+        </div>
+        <label for="lastname"> lastname :</label>
+        <input lastname 
+            required 
+            type="text" 
+            ngModel 
+            name="lastname"
+            class="form-control"
+            id="lastname"
+            #lastname="ngModel">
+        <div class="alert alert-danger" *ngIf="!lastname.valid && lastname.touched">
+            le lastname est obligatoire
+        </div>
+        <label for="country">Country:</label>
+        <select 
+            required 
+            [(ngModel)]="selectedCountry"
+            name="country"
+            class="form-control"
+            id="country">
+            <!-- Default option -->
+            <option value="">Select a country</option>        
+            <!-- Options generated from the countries array -->
+            <option *ngFor="let country of countries" [value]="country.name.common">{{ country.name.common }}</option>
+        </select>
+        
+        <label for="email"> email :</label>
+        <input email 
+            required 
+            type="text" 
+            ngModel 
+            name="email"
+            class="form-control"
+            id="email"
+            #email="ngModel">
+            
+            <div class="alert alert-danger" *ngIf="!email.valid && email.touched">
+                l'email n'est pas valide
+            </div>
+        
+        <label for="password"> password :</label>
+        <input password 
+            required 
+            minlength="4"
+            type="password" 
+            ngModel 
+            name="password"
+            class="form-control"
+            id="password"
+            #password="ngModel">
+        <div class="alert alert-danger" *ngIf="!password.valid && password.touched">
+            le password doit contenir au moins 4 caractères
+        </div>
+        <label for="passwordconfirm"> confirm password :</label>
+        <input password 
+            required 
+            minlength="4"
+            type="password" 
+            ngModel 
+            name="passwordconfirm"
+            class="form-control"
+            id="passwordconfirm"
+            #passwordconfirm="ngModel">
+        <div class="alert alert-danger" *ngIf="!(passwordconfirm.value == password.value) && passwordconfirm.touched">
+            le password doit etre identique
+        </div>
+        <button [disabled]="singupForm.invalid" class="btn btn-primary" (click)="singUp(singupForm)"> sign up </button>
+    </form>
+    <p>already have an account?<button (click)="navigateToLogin()">login</button></p>
+</div>
