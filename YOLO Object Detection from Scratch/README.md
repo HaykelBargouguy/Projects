@@ -49,10 +49,3 @@ This project implements a You Only Look Once (YOLO) object detection system from
 ![000000098261_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/334cd441-4918-4a37-ae36-92990de4eed6)
 ![000000098392 - Copy_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/90cc788d-0a06-47a0-bd2d-f2e277b7f6fe)
 
-
-## Installation
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/YourUsername/YOLO-Object-Detection.git
