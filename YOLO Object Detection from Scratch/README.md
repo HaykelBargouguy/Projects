@@ -18,9 +18,6 @@ This project implements a You Only Look Once (YOLO) object detection system from
 
 ## Results 
 
-![000000098392_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/f69c624d-5217-456a-9105-6476a97d8057)
-![000000109827 - Copy_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/4a8925c5-14ef-42c9-8ff3-b7587aec7212)
-![000000109827_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/465bd3fb-c2d8-4675-9ced-afaad74c5f43)
 ![000000001000_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/540bec0b-3e3a-4f7b-aa55-ea0de417d427)
 ![000000005992_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/98c90a78-5252-4161-bab3-bd16366e9a9d)
 ![000000008690_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/ac5511da-1967-42ec-a758-4b6e3724db08)
@@ -30,11 +27,6 @@ This project implements a You Only Look Once (YOLO) object detection system from
 ![000000017714_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/64b65d90-5317-4687-b71b-dea5f6b54564)
 ![000000020107 - Copy_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/befd7817-5ac7-4390-b24f-21bed6504aea)
 ![000000020107_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/51e1015f-1bb5-4a0b-8c73-9dd61d83e4ba)
-![000000021879_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/ce8c91d2-7e28-4254-98fc-5a9a8ae71f46)
-![000000024243_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/86abcf05-1e55-4ef2-8265-7450f20b0fcf)
-![000000024919_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/e35ea8f4-3f28-43a0-a35d-f542a10de22e)
-![000000038829_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/99b896c4-5f8d-462d-896f-e0e9f9bfaa74)
-![000000047571_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/45941512-c28a-4fe2-9d6c-01a66462d31b)
 ![000000053994_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/83c3e04e-9d77-41ce-bf10-a2d05f175175)
 ![000000067213_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/39a97bfd-6ab8-45cf-b59f-2b81b8fa6994)
 ![000000082821_det](https://github.com/HaykelBargouguy/Projects/assets/98351985/d3d1e3b8-bf89-49a9-8c01-d50f76b8f9ca)
